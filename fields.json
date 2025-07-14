@@ -1,0 +1,250 @@
+{
+  "smallSize": {
+    "type": "number",
+    "label": "Small explosion size: [200/1000]",
+    "value": 200,
+    "min": 100,
+    "max": 1000,
+    "step": 1,
+    "group": "Size"
+  },
+  "mediumSize": {
+    "type": "number",
+    "label": "medium explosion size: [350/1000]",
+    "value": 350,
+    "min": 100,
+    "max": 1000,
+    "step": 1,
+    "group": "Size"
+  },
+  "largeSize": {
+    "type": "number",
+    "label": "Big explosion size: [500/1000]",
+    "value": 500,
+    "min": 100,
+    "max": 1000,
+    "step": 1,
+    "group": "Size"
+  },
+  "hugeSize": {
+    "type": "number",
+    "label": "Huge explosion size: [650/1000]",
+    "value": 650,
+    "min": 100,
+    "max": 1000,
+    "step": 1,
+    "group": "Size"
+  },
+  "soundVolume": {
+    "type": "slider",
+    "label": "Sound volume:",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "group": "Sound"
+  },
+  "variations1": {
+    "type": "number",
+    "label": "If the donation is greater than:",
+    "value": 1,
+    "min": 1,
+    "max": 10000,
+    "step": 1,
+    "group": "Variations 1"
+  },
+  "variations1DropdownSize": {
+    "type": "dropdown",
+    "label": "Explosion size:",
+    "value": "small",
+    "group": "Variations 1",
+    "options": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "huge": "Huge"
+    }
+  },
+  "variations1Particules": {
+    "type": "slider",
+    "label": "Particle limit:",
+    "value": 70,
+    "min": 10,
+    "max": 800,
+    "step": 10,
+    "group": "Variations 1"
+  },
+  "variations1Limit": {
+    "type": "slider",
+    "label": "Fireworks limit:",
+    "value": 10,
+    "min": 1,
+    "max": 10,
+    "step": 1,
+    "group": "Variations 1"
+  },
+  "variations1Emulate": {
+    "type": "button",
+    "label": "Emulate",
+    "value": "1",
+    "group": "Variations 1"
+  },
+  "variations2Checkbox": {
+    "type": "checkbox",
+    "label": "Enabled",
+    "group": "Variations 2"
+  },
+  "variations2": {
+    "type": "number",
+    "label": "If the donation is greater than:",
+    "value": 50,
+    "min": 1,
+    "max": 10000,
+    "step": 1,
+    "group": "Variations 2"
+  },
+  "variations2DropdownSize": {
+    "type": "dropdown",
+    "label": "Explosion size:",
+    "value": "medium",
+    "group": "Variations 2",
+    "options": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "huge": "Huge"
+    }
+  },
+  "variations2Particules": {
+    "type": "slider",
+    "label": "Particle limit:",
+    "value": 300,
+    "min": 10,
+    "max": 800,
+    "step": 10,
+    "group": "Variations 2"
+  },
+  "variations2Limit": {
+    "type": "slider",
+    "label": "Fireworks limit:",
+    "value": 10,
+    "min": 1,
+    "max": 10,
+    "step": 1,
+    "group": "Variations 2"
+  },
+  "variations2Emulate": {
+    "type": "button",
+    "label": "Emulate",
+    "value": "2",
+    "group": "Variations 2"
+  },
+  "variations3Checkbox": {
+    "type": "checkbox",
+    "label": "Enabled",
+    "group": "Variations 3"
+  },
+  "variations3": {
+    "type": "number",
+    "label": "If the donation is greater than:",
+    "value": 500,
+    "min": 1,
+    "max": 10000,
+    "step": 1,
+    "group": "Variations 3"
+  },
+  "variations3DropdownSize": {
+    "type": "dropdown",
+    "label": "Explosion size:",
+    "value": "large",
+    "group": "Variations 3",
+    "options": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "huge": "Huge"
+    }
+  },
+  "variations3Particules": {
+    "type": "slider",
+    "label": "Particle limit:",
+    "value": 550,
+    "min": 10,
+    "max": 800,
+    "step": 10,
+    "group": "Variations 3"
+  },
+  "variations3Limit": {
+    "type": "slider",
+    "label": "Fireworks limit:",
+    "value": 10,
+    "min": 1,
+    "max": 10,
+    "step": 1,
+    "group": "Variations 3"
+  },
+  "variations3Emulate": {
+    "type": "button",
+    "label": "Emulate",
+    "value": "3",
+    "group": "Variations 3"
+  },
+  "variations4Checkbox": {
+    "type": "checkbox",
+    "label": "Enabled",
+    "group": "Variations 4"
+  },
+  "variations4": {
+    "type": "number",
+    "label": "If the donation is greater than:",
+    "value": 1000,
+    "min": 1,
+    "max": 10000,
+    "step": 1,
+    "group": "Variations 4"
+  },
+  "variations4DropdownSize": {
+    "type": "dropdown",
+    "label": "Explosion size:",
+    "value": "huge",
+    "group": "Variations 4",
+    "options": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "huge": "Huge"
+    }
+  },
+  "variations4Particules": {
+    "type": "slider",
+    "label": "Particle limit:",
+    "value": 800,
+    "min": 10,
+    "max": 800,
+    "step": 10,
+    "group": "Variations 4"
+  },
+  "variations4Limit": {
+    "type": "slider",
+    "label": "Fireworks limit:",
+    "value": 10,
+    "min": 1,
+    "max": 10,
+    "step": 1,
+    "group": "Variations 4"
+  },
+  "variations4Emulate": {
+    "type": "button",
+    "label": "Emulate",
+    "value": "4",
+    "group": "Variations 4"
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "FierWorks alert tips by tomtom7157"
+  },
+  "widgetDuration": {
+    "type": "hidden",
+    "value": 8
+  }
+}
